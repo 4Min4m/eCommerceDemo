@@ -1,0 +1,10 @@
+- name: Install Helm
+  hosts: localhost
+  tasks:
+    - name: Download Helm installer
+      get_url:
+        url: https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+        dest: /tmp/get_helm.sh
+        mode: '0700'
+    - name: Run Helm installer
+      command: /tmp/get_helm.sh
