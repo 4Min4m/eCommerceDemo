@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+dist/
+*.log
+npm-debug.log*
+yarn-error.log
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# AWS
+*.tfstate
+*.tfstate.backup
+
+# Helm
+helm/*/charts/
+helm/*/Chart.lock
+
+# Development
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary files
+*.bak
+*.tmp
+*~
+
+# Build artifacts
+build/
+coverage/
