@@ -35,3 +35,6 @@ helm/*/Chart.lock
 build/
 coverage/..bfg-report/
 bfg-*.jar
+
+
+.devcontainer
