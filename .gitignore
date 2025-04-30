@@ -33,4 +33,5 @@ helm/*/Chart.lock
 
 # Build artifacts
 build/
-coverage/
+coverage/..bfg-report/
+bfg-*.jar
